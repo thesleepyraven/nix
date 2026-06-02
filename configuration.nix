@@ -11,6 +11,7 @@ in
     ./basic.nix
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
+    ./programs/flatpak.nix
     ./programs/neovim.nix
     ./programs/niri.nix
     ./programs/kitty.nix
