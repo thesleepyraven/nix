@@ -322,6 +322,7 @@ window-rule {
     exclude app-id="brave"
     exclude app-id="google-chrome"
     exclude app-id="chromium"
+    exclude app-id="zen_browser"
     exclude app-id="firefox"
     exclude app-id="steam"
     exclude app-id="heroic"
@@ -333,6 +334,7 @@ window-rule {
     match app-id="google-chrome"
     match app-id="chromium"
     match app-id="firefox"
+    match app-id="zen_browser"
     open-on-workspace "Browser"
     open-maximized true
 }
