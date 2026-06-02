@@ -319,7 +319,6 @@ workspace "DC"
 workspace "Others"
 window-rule {
     exclude app-id="kitty"
-    exclude app-id="brave"
     exclude app-id="google-chrome"
     exclude app-id="chromium"
     exclude app-id="zen_browser"
@@ -330,7 +329,6 @@ window-rule {
     open-on-workspace "Others"
 }
 window-rule {
-    match app-id="brave"
     match app-id="google-chrome"
     match app-id="chromium"
     match app-id="firefox"
