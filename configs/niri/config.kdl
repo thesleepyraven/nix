@@ -245,6 +245,7 @@ spawn-at-startup "steam"
 spawn-at-startup "discord"
 spawn-at-startup "heroic"
 spawn-at-startup "noctalia-shell"
+spawn-at-startup "waydroid"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 hotkey-overlay {
@@ -316,6 +317,7 @@ workspace "Browser"
 workspace "Terminal"
 workspace "Gaming"
 workspace "DC"
+workspace "Waydroid"
 workspace "Others"
 window-rule {
     exclude app-id="kitty"
@@ -324,6 +326,7 @@ window-rule {
     exclude app-id="zen_browser"
     exclude app-id="firefox"
     exclude app-id="steam"
+    exclude app-id="Waydroid"
     exclude app-id="heroic"
     exclude app-id="discord"
     open-on-workspace "Others"
@@ -350,6 +353,11 @@ window-rule {
 window-rule {
     match app-id="discord"
     open-on-workspace "DC"
+    open-maximized true
+}
+window-rule {
+    match app-id="Waydroid"
+    open-on-workspace "Waydroid"
     open-maximized true
 }
 binds {
