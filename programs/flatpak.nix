@@ -14,6 +14,10 @@ in
         name = "flathub";
         location = "https://dl.flathub.org/repo/flathub.flatpakrepo";
       }
+      {
+        name = "cosmic-flatpak";
+        location = "https://apt.pop-os.org/cosmic/cosmic.flatpakrepo";
+      }
     ];
     packages = [
       {
