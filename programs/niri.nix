@@ -26,6 +26,7 @@
     kdePackages.dolphin
     fuzzel
     nautilus
+    noctalia-shell
     networkmanagerapplet
     pavucontrol
     swaybg

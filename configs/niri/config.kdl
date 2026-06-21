@@ -237,6 +237,7 @@ layout {
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "xwayland-satellite"
+spawn-at-startup "noctalia-shell"
 spawn-sh-at-startup "swayidle -w timeout 600 'swaylock -f' before-sleep 'swaylock -f'"
 spawn-at-startup "blueman-applet"
 spawn-at-startup "nm-applet"
@@ -245,6 +246,7 @@ spawn-at-startup "steam"
 spawn-at-startup "discord"
 spawn-at-startup "heroic"
 spawn-at-startup "waydroid"
+spawn-at-startup "localsend"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 hotkey-overlay {
@@ -835,4 +837,3 @@ binds {
         power-off-monitors
     }
 }
-include "dms/cursor.kdl"
