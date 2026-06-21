@@ -23,7 +23,7 @@ in
     ];
     update.auto = {
       enable = true;
-      onCalendar = "weekly";
+      onCalendar = "daily";
     };
     uninstallUnmanaged = true;
   };
