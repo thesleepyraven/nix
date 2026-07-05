@@ -13,6 +13,7 @@ in
     ./hardware-configuration.nix
     ./programs/flatpak.nix
     ./programs/neovim.nix
+    ./programs/niri.nix
     ./programs/kitty.nix
     ./programs/programs.nix
     ./programs/services.nix
