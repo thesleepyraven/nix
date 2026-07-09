@@ -7,6 +7,45 @@
       "ddkjiahejlhfcafbddmgiahcphecmpfh" # uBlock Origin Lite
       "hkgfoiooedgoejojocmhlaklaeopbecg" # PiP by Google
     ];
+    extraOpts = {
+      "AdsSettingForIntrusiveAdsSites" = 2;
+      "AudioSandboxEnabled" = true;
+      "BlockThirdPartyCookies" = true;
+      "BookmarkBarEnabled" = true;
+      "BrowserGuestModeEnabled" = true;
+      "BrowserLabsEnabled" = true;
+      "ClearBrowsingDataOnExitList" = [
+        "browsing_history"
+        "download_history"
+        "cookies_and_other_site_data"
+        "cached_images_and_files"
+        "password_signin"
+        "autofill"
+        "site_settings"
+        "hosted_app_data"
+      ];
+      "DefaultClipboardSetting" = 3;
+      "DefaultCookiesSetting" = 4;
+      "DefaultFileSystemReadGuardSetting" = 3;
+      "DefaultFileSystemWriteGuardSetting" = 3;
+      "DefaultGeolocationSetting" = 3;
+      "DefaultIdleDetectionSetting" = 2;
+      "DefaultNotificationsSetting" = 3;
+      "DefaultPopupsSetting" = 2;
+      "DefaultSensorsSetting" = 3;
+      "DefaultSerialGuardSetting" = 2;
+      "DefaultWebBluetoothGuardSetting" = 3;
+      "DefaultWebBluetoothHidSetting" = 3;
+      "DefaultWebBluetoothUsbSetting" = 3;
+      "DefualtWindowManagementSetting" = 2;
+      "FeedbackSurveysEnabled" = false;
+      "GenAiDefaultSettings" = 2;
+      "HomepageIsNewTabPage" = true;
+      "PaymentMethodQueryEnabled" = false;
+      "PromptForDownloadLocation" = true;
+      "RestoreOnStartup" = 1;
+      "ShowHomeButton" = true;
+    };
   };
   programs.firefox = {
     enable = true;
