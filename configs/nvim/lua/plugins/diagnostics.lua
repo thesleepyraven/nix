@@ -1,6 +1,6 @@
 return {
 	"folke/trouble.nvim",
-	opts = {},
+	opts = { open_no_results = true },
 	cmd = "Trouble",
 	keys = { {
 		"<leader>dt",
