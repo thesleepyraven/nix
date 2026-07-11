@@ -313,7 +313,7 @@ geometry-corner-radius 12
 clip-to-geometry true
 }
 workspace "Browser"
-workspace "Terminal"
+workspace "Dev Work"
 workspace "Gaming"
 workspace "DC"
 workspace "Others"
@@ -325,6 +325,7 @@ window-rule {
     exclude app-id="firefox"
     exclude app-id="steam"
     exclude app-id="heroic"
+    exclude app-id="zed"
     exclude app-id="discord"
     open-on-workspace "Others"
 }
@@ -338,7 +339,8 @@ window-rule {
 }
 window-rule {
     match app-id="kitty"
-    open-on-workspace "Terminal"
+    match app-id="zed"
+    open-on-workspace "Dev Work"
     open-maximized true
 }
 window-rule {
