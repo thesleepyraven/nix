@@ -7,7 +7,6 @@
     ];
     userSettings = {
       assistant.enabled = false;
-      auto_signature_help = true;
       calls = {
         mute_on_join = false;
         share_on_join = false;
