@@ -8,7 +8,7 @@
   #Nix garbage collection
   nix.gc = {
     automatic = true;
-    dates = "daily";
+    dates = "weekly";
     persistent = true;
     options = "--delete-older-than 3d";
   };
