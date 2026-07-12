@@ -1,13 +1,12 @@
 { ... }: {
   programs.zed-editor = {
     enable = true;
-    extensions = [
-      "dart"
-      "flutter-snippets"
-    ];
     userSettings = {
       assistant.enabled = false;
       auto_signature_help = false;
+      auto_install_extensions = {
+        "*" = true;
+      };
       calls = {
         mute_on_join = false;
         share_on_join = false;
