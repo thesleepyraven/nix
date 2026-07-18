@@ -34,7 +34,6 @@
     quickemu
     sbctl
     unzip
-    vesktop
     wget
     zip
   ];

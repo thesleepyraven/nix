@@ -242,7 +242,7 @@ spawn-at-startup "blueman-applet"
 spawn-at-startup "nm-applet"
 spawn-sh-at-startup "swaybg -i ~/wallpaper.jpg"
 spawn-at-startup "steam"
-spawn-at-startup "vesktop"
+spawn-at-startup "discord"
 spawn-at-startup "heroic"
 spawn-at-startup "noctalia-shell"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
@@ -326,7 +326,7 @@ window-rule {
     exclude app-id="steam"
     exclude app-id="heroic"
     exclude app-id="zed"
-    exclude app-id="vesktop"
+    exclude app-id="discord"
     open-on-workspace "Others"
 }
 window-rule {
@@ -350,7 +350,7 @@ window-rule {
     open-maximized true
 }
 window-rule {
-    match app-id="vesktop"
+    match app-id="discord"
     open-on-workspace "DC"
     open-maximized true
 }
