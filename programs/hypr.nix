@@ -1,6 +1,7 @@
 { pkgs, ... }:
 {
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
+  environment.sessionVariables.HYPR_STUB = "${pkgs.hyprland}/share/hypr/stubs";
   programs.hyprland = {
     enable = true;
   };
