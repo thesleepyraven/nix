@@ -5,6 +5,7 @@
 { pkgs, ... }:
 let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
+  stylix = builtins.fetchGit { url = "https://github.com/nix-community/stylix"; };
 in
 {
   imports = [
@@ -14,12 +15,14 @@ in
     ./programs/browser.nix
     ./programs/flatpak.nix
     ./programs/games.nix
+    ./programs/hypr.nix
     ./programs/neovim.nix
-    ./programs/niri.nix
     ./programs/kitty.nix
     ./programs/programs.nix
     ./programs/services.nix
+    ./themes.nix
     (import "${home-manager}/nixos")
+    (import stylix).nixosModules.stylix
   ];
 
   home-manager.useUserPackages = true;
