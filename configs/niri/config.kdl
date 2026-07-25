@@ -295,15 +295,18 @@ window-rule {
 window-rule {
     match app-id="kitty"
     open-on-workspace "Terminal"
+    open-maximized true
 }
 window-rule {
     match app-id="heroic"
     match app-id="steam"
     open-on-workspace "Gaming"
+    open-maximized true
 }
 window-rule {
     match app-id="discord"
     open-on-workspace "Discord"
+    open-maximized true
 }
 window-rule {
     exclude app-id="zen"
