@@ -14,8 +14,8 @@ in
     ./programs/browser.nix
     ./programs/flatpak.nix
     ./programs/games.nix
-    ./programs/hypr.nix
     ./programs/neovim.nix
+    ./programs/niri.nix
     ./programs/kitty.nix
     ./programs/programs.nix
     ./programs/services.nix

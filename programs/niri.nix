@@ -2,24 +2,31 @@
 {
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
   environment.sessionVariables.HYPR_STUB = "${pkgs.hyprland}/share/hypr/stubs";
-  programs.hyprland = {
+  programs.niri = {
     enable = true;
+    useNautilus = true;
   };
   programs.nm-applet.enable = true;
+  programs.xwayland = {
+    enable = true;
+    package = pkgs.xwayland-satellite;
+  };
   services.blueman.enable = true;
   services.power-profiles-daemon.enable = true;
   xdg.portal = {
     enable = true;
     wlr.enable = true;
     xdgOpenUsePortal = true;
+    extraPortals = with pkgs; [ xdg-desktop-portal-gtk ];
   };
   environment.systemPackages = with pkgs; [
-    brightnessctl
-    hyprlauncher
+    fuzzel
     kdePackages.dolphin
     kdePackages.discover
-    networkmanagerapplet
     noctalia-shell
     pavucontrol
+    swaybg
+    swayidle
+    swaylock
   ];
 }
