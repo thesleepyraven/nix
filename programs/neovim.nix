@@ -8,6 +8,7 @@
   };
   environment.systemPackages = with pkgs; [
     fzf
+    kdlfmt
     luajitPackages.lua-lsp
     nil
     nixfmt
