@@ -243,7 +243,7 @@ spawn-at-startup "noctalia-shell"
 spawn-at-startup "nm-applet"
 spawn-at-startup "blueman"
 spawn-at-startup "heroic"
-spawn-at-startup "flatpak run com.discordapp.Discord"
+spawn-sh-at-startup "flatpak run com.discordapp.Discord"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 hotkey-overlay {
