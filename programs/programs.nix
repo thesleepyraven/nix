@@ -28,6 +28,7 @@
 
   environment.systemPackages = with pkgs; [
     comma
+    fvm
     gh
     mpv
     onlyoffice-desktopeditors
