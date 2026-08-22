@@ -8,4 +8,5 @@ in
   xdg.configFile."niri".source = mkSymlink ./configs/niri;
   xdg.configFile."nvim".source = mkSymlink ./configs/nvim;
   xdg.configFile."kitty".source = mkSymlink ./configs/kitty;
+  xdg.configFile."waybar".source = mkSymlink ./configs/waybar;
 }
