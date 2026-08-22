@@ -22,10 +22,10 @@
     fuzzel
     kdePackages.dolphin
     kdePackages.discover
-    noctalia-shell
     pavucontrol
     swaybg
     swayidle
     swaylock
+    waybar
   ];
 }
