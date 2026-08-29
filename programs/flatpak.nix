@@ -20,10 +20,6 @@ in
         appId = "app.zen_browser.zen";
         origin = "flathub";
       }
-      {
-        appId = "com.discordapp.Discord";
-        origin = "flathub";
-      }
     ];
     update.auto = {
       enable = true;

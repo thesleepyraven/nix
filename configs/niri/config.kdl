@@ -282,7 +282,6 @@ animations {
 workspace "Browser"
 workspace "Terminal"
 workspace "Gaming"
-workspace "Discord"
 workspace "Others"
 window-rule {
     match app-id="zen"
@@ -305,11 +304,6 @@ window-rule {
     open-maximized true
 }
 window-rule {
-    match app-id="discord"
-    open-on-workspace "Discord"
-    open-maximized true
-}
-window-rule {
     exclude app-id="zen"
     exclude app-id="chromium"
     exclude app-id="google-chrome"
@@ -318,7 +312,6 @@ window-rule {
     exclude app-id="heroic"
     exclude app-id="steam"
     exclude app-id=".exe"
-    exclude app-id="discord"
     open-on-workspace "Others"
 }
 // Open the Firefox picture-in-picture player as floating by default.
