@@ -18,6 +18,7 @@
   system.autoUpgrade = {
     enable = true;
     allowReboot = false;
+    dates = "daily";
   };
 
   # Set your time zone.
